@@ -1,0 +1,62 @@
+body {
+  font-family: cursive;
+  color: #454545;
+  margin: 0px;
+  padding: 0px;
+  background-color: yellow;
+  background-image: url('bkgd2.png');
+}
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.ball, .button {
+  margin: 0 auto;
+}
+.answer {
+  position:absolute;
+  width:14%;
+  top:50%;
+  left:50%;
+  margin-top:-60px;
+  margin-left:-65px;
+  font: 16px cursive;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#questionButton {
+  font: 26px , cursive;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: deepskyblue;
+  padding: 10px 75px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1px;
+}
+
+header {
+  padding-top: 0.25em;
+  text-align: center;
+}
+header span {
+  font-size: 60px;
+  color: #f16059;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: cursive;
+  margin-top: 1px;
+}
+
+footer p {
+  font-family: cursive;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
